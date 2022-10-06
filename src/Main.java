@@ -17,6 +17,7 @@ public class Main {
         double MONTH = 12;
         double DAYS = 29.5;   //Коллличество дней утановленых законом
         double calc = (moneyYear / MONTH / DAYS)* DAYSFREE;
-        System.out.println(calc);
+        String string = String.format ("%.0f", calc);
+        System.out.print(string);
     }
 }
